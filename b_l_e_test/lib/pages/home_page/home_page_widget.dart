@@ -56,7 +56,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
     }, onError: (Object error) {
       return "No result";
     });
-    l.add("Ur mom");
+
     for (var id in l) {
       str = str + id.toString();
     }
