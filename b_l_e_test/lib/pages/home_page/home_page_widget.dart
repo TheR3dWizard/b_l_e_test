@@ -42,8 +42,8 @@ class _HomePageWidgetState extends State<HomePageWidget> {
 
   String? uUIDScan() {
     final flutterReactiveBle = FlutterReactiveBle();
-    var str = "No items yet";
-    var l = [];
+    var str = "No items utiuufgvwibd yet";
+    var l = ["First item"];
     List<DiscoveredDevice> _foundBleUARTDevices = [];
     StreamSubscription<DiscoveredDevice> _scanStream;
     _foundBleUARTDevices = [];
