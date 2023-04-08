@@ -2,6 +2,7 @@ import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import '/flutter_flow/custom_functions.dart' as functions;
 import 'package:flutter/material.dart';
+import 'package:flutter_reactive_ble/flutter_reactive_ble.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
 import 'home_page_model.dart';
@@ -60,13 +61,21 @@ class _HomePageWidgetState extends State<HomePageWidget> {
           child: Column(
             mainAxisSize: MainAxisSize.max,
             children: [
-              Text(
-                valueOrDefault<String>(
-                  functions.uUIDScan(),
-                  'Didnt Work ',
-                ),
-                style: FlutterFlowTheme.of(context).bodyMedium,
-              ),
+              FutureBuilder<String>(
+                  future: functions.uUIDScan(),
+                  builder:
+                      (BuildContext context, AsyncSnapshot<String> snapshot) {
+                    if (snapshot.connectionState == ConnectionState.waiting) {
+                      return CircularProgressIndicator();
+                    }
+                    if (snapshot.hasError) {
+                      return Text('Error: ${snapshot.error}');
+                    }
+                    return Text(
+                      snapshot.data ?? '',
+                      style: TextStyle(fontSize: 24.0),
+                    );
+                  })
             ],
           ),
         ),
