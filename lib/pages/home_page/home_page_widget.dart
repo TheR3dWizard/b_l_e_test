@@ -62,7 +62,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
             mainAxisSize: MainAxisSize.max,
             children: [
               FutureBuilder<String>(
-                  future: functions.uUIDScan(),
+                  future: functions.aTTendance(),
                   builder:
                       (BuildContext context, AsyncSnapshot<String> snapshot) {
                     if (snapshot.connectionState == ConnectionState.waiting) {

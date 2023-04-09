@@ -10,16 +10,13 @@ import 'place.dart';
 
 import 'dart:async';
 
-import 'package:flutter_reactive_ble/flutter_reactive_ble.dart';
-
-Future<String>? uUIDScan() async {
+Future<List>? uUIDScan() async {
   final flutterReactiveBle = FlutterReactiveBle();
-  final devicesList = <String>[];
-  String str = "";
+  final devicesList = <String>{};
 
   final subscription = flutterReactiveBle.scanForDevices(
     withServices: [],
-    scanMode: ScanMode.lowLatency,
+    scanMode: ScanMode.lowPower,
     requireLocationServicesEnabled: false,
   ).listen((scanResult) {
     devicesList.add(scanResult.id.toString());
@@ -32,6 +29,24 @@ Future<String>? uUIDScan() async {
   await subscription.cancel();
 
   // Print the list of scanned devices
-  devicesList.forEach((device) => str = str + device + '\n');
-  return str;
+
+  return devicesList.toList();
+}
+
+Future<String>? aTTendance() async {
+  List? uuid = await uUIDScan();
+  List? uuidlist = uUIDList();
+
+  for (int i = 0; i < uuid!.length; i++) {
+    if (uuidlist!.contains(uuid[i])) {
+      return 'Present ${uuid[i]}';
+    }
+  }
+  return 'Absent $uuid';
+}
+
+List? uUIDList() {
+  //will be replaced by an API call
+  List l = ['03:01:51:C9:65:72'];
+  return l;
 }
