@@ -12,10 +12,10 @@ import 'dart:async';
 
 import 'package:flutter_reactive_ble/flutter_reactive_ble.dart';
 
-Future<String?> uUIDScan() async {
+Future<String>? uUIDScan() async {
   final flutterReactiveBle = FlutterReactiveBle();
   final devicesList = <String>[];
-  String? str;
+  String str = "";
 
   final subscription = flutterReactiveBle.scanForDevices(
     withServices: [],
@@ -32,6 +32,6 @@ Future<String?> uUIDScan() async {
   await subscription.cancel();
 
   // Print the list of scanned devices
-  devicesList.forEach((device) => str = str! + device + ',');
-  return str ?? 'No devices found';
+  devicesList.forEach((device) => str = str + device + '\n');
+  return str ?? "";
 }
