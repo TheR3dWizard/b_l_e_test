@@ -1,10 +1,10 @@
 # BLE Test
 
-A new Flutter project.
+A BLE Scanner that returns all nearby UUIDs
 
 ## Getting Started
 
-FlutterFlow projects are built to run on the Flutter _stable_ release.
+The function can be found in the `custom_functions.dart` file
 
 ### IMPORTANT:
 

@@ -33,5 +33,5 @@ Future<String>? uUIDScan() async {
 
   // Print the list of scanned devices
   devicesList.forEach((device) => str = str + device + '\n');
-  return str ?? "";
+  return str;
 }
