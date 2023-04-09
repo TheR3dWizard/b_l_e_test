@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\Projects\\PSG Scapes\\Extracts\\b_l_e_test\\b_l_e_test\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-be\\values-be.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\sreer\\.gradle\\caches\\transforms-3\\3e69e75513e04a117e18d9909e62f677\\transformed\\core-1.6.0\\res\\values-be\\values-be.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,275 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\main\AndroidManifest.xml:1:1-64:12
+INJECTED from D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\main\AndroidManifest.xml:1:1-64:12
+INJECTED from D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\main\AndroidManifest.xml:1:1-64:12
+INJECTED from D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\main\AndroidManifest.xml:1:1-64:12
+MERGED from D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\main\AndroidManifest.xml:1:1-64:12
+MERGED from [:shared_preferences_android] D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\build\shared_preferences_android\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:reactive_ble_mobile] D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\build\reactive_ble_mobile\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-17:12
+MERGED from [:sqflite] D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\build\sqflite\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:url_launcher_android] D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-14:12
+MERGED from [:path_provider_android] D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\build\path_provider_android\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\sreer\.gradle\caches\transforms-3\e7cbfa1355407bd6ecfd6af2487a3e4e\transformed\jetified-window-java-1.0.0-beta04\AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\sreer\.gradle\caches\transforms-3\49bcc28af8d7e79ebc8e5b31bd5a5e7e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:17:1-33:12
+MERGED from [com.polidea.rxandroidble2:rxandroidble:1.16.0] C:\Users\sreer\.gradle\caches\transforms-3\d45f4fab39c61697e297e5d5905e9b97\transformed\jetified-rxandroidble-1.16.0\AndroidManifest.xml:2:1-27:12
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] C:\Users\sreer\.gradle\caches\transforms-3\139c101c4dbb0b3ca13103da83c4fad9\transformed\jetified-rxandroid-2.1.1\AndroidManifest.xml:15:1-20:12
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\sreer\.gradle\caches\transforms-3\c0d1f724dc6b6b7fe3c6e3fa4ff11668\transformed\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\sreer\.gradle\caches\transforms-3\20243c4ed8b292a6911cb97ed685aa36\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\sreer\.gradle\caches\transforms-3\a8f7fb5057e0b3964c7d59698358afe9\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\sreer\.gradle\caches\transforms-3\f23e5c08a7300d14fd4bea587c96d0b4\transformed\jetified-activity-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\sreer\.gradle\caches\transforms-3\b70febbacdd49189356189d4d34d36e3\transformed\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.6.0] C:\Users\sreer\.gradle\caches\transforms-3\3e69e75513e04a117e18d9909e62f677\transformed\core-1.6.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\sreer\.gradle\caches\transforms-3\1c121f23afd0626a24b74468011fab88\transformed\lifecycle-runtime-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\sreer\.gradle\caches\transforms-3\76628ea829c5a6f516c18423f169221e\transformed\jetified-savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\sreer\.gradle\caches\transforms-3\4a2ba29cee3f96f1444ca06431d1a7cb\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\sreer\.gradle\caches\transforms-3\38228ab0aa7e117550020d0e764c5364\transformed\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\sreer\.gradle\caches\transforms-3\06fb337f6d3182f006d03f388eb67cf7\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\sreer\.gradle\caches\transforms-3\4f6b15aee8c117ce0e173652737d42b2\transformed\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\sreer\.gradle\caches\transforms-3\6ce79b182026f66ec819dd238c14f123\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\sreer\.gradle\caches\transforms-3\acebf67183aa4a1009334010be8c1b25\transformed\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\sreer\.gradle\caches\transforms-3\f08fb4991e6d561449aa0c17c2a6f0f4\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
+INJECTED from D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\debug\AndroidManifest.xml:1:1-7:12
+INJECTED from D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\debug\AndroidManifest.xml:1:1-7:12
+INJECTED from D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\debug\AndroidManifest.xml:1:1-7:12
+	package
+		ADDED from D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\main\AndroidManifest.xml:2:5-39
+		INJECTED from D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\debug\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\main\AndroidManifest.xml
+		ADDED from D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\main\AndroidManifest.xml:1:1-64:12
+		INJECTED from D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\debug\AndroidManifest.xml
+	xmlns:tools
+		ADDED from D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\main\AndroidManifest.xml:3:5-51
+		ADDED from D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\main\AndroidManifest.xml
+		ADDED from D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\main\AndroidManifest.xml:1:1-64:12
+		INJECTED from D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\debug\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\main\AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\main\AndroidManifest.xml:4:5-66
+MERGED from D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\main\AndroidManifest.xml:4:5-66
+MERGED from D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\main\AndroidManifest.xml:4:5-66
+	android:name
+		ADDED from D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\main\AndroidManifest.xml:4:22-64
+uses-permission#android.permission.BLUETOOTH
+ADDED from D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\main\AndroidManifest.xml:6:5-68
+MERGED from [:reactive_ble_mobile] D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\build\reactive_ble_mobile\intermediates\library_manifest\debug\AndroidManifest.xml:10:5-12:38
+MERGED from [:reactive_ble_mobile] D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\build\reactive_ble_mobile\intermediates\library_manifest\debug\AndroidManifest.xml:10:5-12:38
+MERGED from [com.polidea.rxandroidble2:rxandroidble:1.16.0] C:\Users\sreer\.gradle\caches\transforms-3\d45f4fab39c61697e297e5d5905e9b97\transformed\jetified-rxandroidble-1.16.0\AndroidManifest.xml:10:5-12:38
+MERGED from [com.polidea.rxandroidble2:rxandroidble:1.16.0] C:\Users\sreer\.gradle\caches\transforms-3\d45f4fab39c61697e297e5d5905e9b97\transformed\jetified-rxandroidble-1.16.0\AndroidManifest.xml:10:5-12:38
+	android:maxSdkVersion
+		ADDED from [:reactive_ble_mobile] D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\build\reactive_ble_mobile\intermediates\library_manifest\debug\AndroidManifest.xml:12:9-35
+	android:name
+		ADDED from D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\main\AndroidManifest.xml:6:22-65
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\main\AndroidManifest.xml:7:5-78
+	android:name
+		ADDED from D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\main\AndroidManifest.xml:7:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\main\AndroidManifest.xml:8:5-80
+	android:name
+		ADDED from D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\main\AndroidManifest.xml:8:22-78
+application
+ADDED from D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\main\AndroidManifest.xml:9:5-63:19
+MERGED from [:url_launcher_android] D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-12:19
+MERGED from [:url_launcher_android] D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-12:19
+MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\sreer\.gradle\caches\transforms-3\49bcc28af8d7e79ebc8e5b31bd5a5e7e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\sreer\.gradle\caches\transforms-3\49bcc28af8d7e79ebc8e5b31bd5a5e7e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.core:core:1.6.0] C:\Users\sreer\.gradle\caches\transforms-3\3e69e75513e04a117e18d9909e62f677\transformed\core-1.6.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.6.0] C:\Users\sreer\.gradle\caches\transforms-3\3e69e75513e04a117e18d9909e62f677\transformed\core-1.6.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\sreer\.gradle\caches\transforms-3\6ce79b182026f66ec819dd238c14f123\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\sreer\.gradle\caches\transforms-3\6ce79b182026f66ec819dd238c14f123\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+	android:requestLegacyExternalStorage
+		ADDED from D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\main\AndroidManifest.xml:13:9-52
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.6.0] C:\Users\sreer\.gradle\caches\transforms-3\3e69e75513e04a117e18d9909e62f677\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\main\AndroidManifest.xml:10:9-33
+	android:icon
+		ADDED from D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\main\AndroidManifest.xml:12:9-43
+	tools:replace
+		ADDED from D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\main\AndroidManifest.xml:11:9-38
+activity#com.theredwizard.bletest.MainActivity
+ADDED from D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\main\AndroidManifest.xml:15:9-53:20
+	android:launchMode
+		ADDED from D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\main\AndroidManifest.xml:18:13-43
+	android:hardwareAccelerated
+		ADDED from D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\main\AndroidManifest.xml:21:13-47
+	android:windowSoftInputMode
+		ADDED from D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\main\AndroidManifest.xml:22:13-55
+	android:exported
+		ADDED from D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\main\AndroidManifest.xml:17:13-36
+	android:configChanges
+		ADDED from D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\main\AndroidManifest.xml:20:13-163
+	android:theme
+		ADDED from D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\main\AndroidManifest.xml:19:13-47
+	android:name
+		ADDED from D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\main\AndroidManifest.xml:16:13-41
+meta-data#io.flutter.embedding.android.NormalTheme
+ADDED from D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\main\AndroidManifest.xml:27:13-30:17
+	android:resource
+		ADDED from D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\main\AndroidManifest.xml:29:15-52
+	android:name
+		ADDED from D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\main\AndroidManifest.xml:28:15-70
+meta-data#io.flutter.embedding.android.SplashScreenDrawable
+ADDED from D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\main\AndroidManifest.xml:36:13-39:17
+	android:resource
+		ADDED from D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\main\AndroidManifest.xml:38:15-61
+	android:name
+		ADDED from D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\main\AndroidManifest.xml:37:15-79
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\main\AndroidManifest.xml:40:13-43:29
+action#android.intent.action.MAIN
+ADDED from D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\main\AndroidManifest.xml:41:17-68
+	android:name
+		ADDED from D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\main\AndroidManifest.xml:41:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\main\AndroidManifest.xml:42:17-76
+	android:name
+		ADDED from D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\main\AndroidManifest.xml:42:27-74
+meta-data#flutter_deeplinking_enabled
+ADDED from D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\main\AndroidManifest.xml:45:13-90
+	android:value
+		ADDED from D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\main\AndroidManifest.xml:45:67-87
+	android:name
+		ADDED from D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\main\AndroidManifest.xml:45:24-66
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:bletest.com+data:scheme:bletest
+ADDED from D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\main\AndroidManifest.xml:46:13-51:29
+	android:autoVerify
+		ADDED from D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\main\AndroidManifest.xml:46:28-53
+action#android.intent.action.VIEW
+ADDED from D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\main\AndroidManifest.xml:47:17-69
+	android:name
+		ADDED from D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\main\AndroidManifest.xml:47:25-66
+category#android.intent.category.DEFAULT
+ADDED from D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\main\AndroidManifest.xml:48:17-76
+	android:name
+		ADDED from D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\main\AndroidManifest.xml:48:27-73
+category#android.intent.category.BROWSABLE
+ADDED from D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\main\AndroidManifest.xml:49:17-78
+	android:name
+		ADDED from D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\main\AndroidManifest.xml:49:27-75
+data
+ADDED from D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\main\AndroidManifest.xml:50:17-77
+	android:host
+		ADDED from D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\main\AndroidManifest.xml:50:48-74
+	android:scheme
+		ADDED from D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\main\AndroidManifest.xml:50:23-47
+meta-data#flutterEmbedding
+ADDED from D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\main\AndroidManifest.xml:57:9-59:33
+	android:value
+		ADDED from D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\main\AndroidManifest.xml:59:13-30
+	android:name
+		ADDED from D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\main\AndroidManifest.xml:58:13-44
+uses-sdk
+INJECTED from D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\main\AndroidManifest.xml
+INJECTED from D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\main\AndroidManifest.xml
+MERGED from [:shared_preferences_android] D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\build\shared_preferences_android\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences_android] D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\build\shared_preferences_android\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:reactive_ble_mobile] D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\build\reactive_ble_mobile\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:reactive_ble_mobile] D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\build\reactive_ble_mobile\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:sqflite] D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\build\sqflite\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:sqflite] D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\build\sqflite\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:url_launcher_android] D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:url_launcher_android] D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:path_provider_android] D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\build\path_provider_android\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:path_provider_android] D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\build\path_provider_android\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\sreer\.gradle\caches\transforms-3\e7cbfa1355407bd6ecfd6af2487a3e4e\transformed\jetified-window-java-1.0.0-beta04\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\sreer\.gradle\caches\transforms-3\e7cbfa1355407bd6ecfd6af2487a3e4e\transformed\jetified-window-java-1.0.0-beta04\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\sreer\.gradle\caches\transforms-3\49bcc28af8d7e79ebc8e5b31bd5a5e7e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\sreer\.gradle\caches\transforms-3\49bcc28af8d7e79ebc8e5b31bd5a5e7e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:20:5-22:41
+MERGED from [com.polidea.rxandroidble2:rxandroidble:1.16.0] C:\Users\sreer\.gradle\caches\transforms-3\d45f4fab39c61697e297e5d5905e9b97\transformed\jetified-rxandroidble-1.16.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.polidea.rxandroidble2:rxandroidble:1.16.0] C:\Users\sreer\.gradle\caches\transforms-3\d45f4fab39c61697e297e5d5905e9b97\transformed\jetified-rxandroidble-1.16.0\AndroidManifest.xml:6:5-8:41
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] C:\Users\sreer\.gradle\caches\transforms-3\139c101c4dbb0b3ca13103da83c4fad9\transformed\jetified-rxandroid-2.1.1\AndroidManifest.xml:18:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] C:\Users\sreer\.gradle\caches\transforms-3\139c101c4dbb0b3ca13103da83c4fad9\transformed\jetified-rxandroid-2.1.1\AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\sreer\.gradle\caches\transforms-3\c0d1f724dc6b6b7fe3c6e3fa4ff11668\transformed\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\sreer\.gradle\caches\transforms-3\c0d1f724dc6b6b7fe3c6e3fa4ff11668\transformed\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\sreer\.gradle\caches\transforms-3\20243c4ed8b292a6911cb97ed685aa36\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\sreer\.gradle\caches\transforms-3\20243c4ed8b292a6911cb97ed685aa36\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\sreer\.gradle\caches\transforms-3\a8f7fb5057e0b3964c7d59698358afe9\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\sreer\.gradle\caches\transforms-3\a8f7fb5057e0b3964c7d59698358afe9\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\sreer\.gradle\caches\transforms-3\f23e5c08a7300d14fd4bea587c96d0b4\transformed\jetified-activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\sreer\.gradle\caches\transforms-3\f23e5c08a7300d14fd4bea587c96d0b4\transformed\jetified-activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\sreer\.gradle\caches\transforms-3\b70febbacdd49189356189d4d34d36e3\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\sreer\.gradle\caches\transforms-3\b70febbacdd49189356189d4d34d36e3\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.6.0] C:\Users\sreer\.gradle\caches\transforms-3\3e69e75513e04a117e18d9909e62f677\transformed\core-1.6.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.6.0] C:\Users\sreer\.gradle\caches\transforms-3\3e69e75513e04a117e18d9909e62f677\transformed\core-1.6.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\sreer\.gradle\caches\transforms-3\1c121f23afd0626a24b74468011fab88\transformed\lifecycle-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\sreer\.gradle\caches\transforms-3\1c121f23afd0626a24b74468011fab88\transformed\lifecycle-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\sreer\.gradle\caches\transforms-3\76628ea829c5a6f516c18423f169221e\transformed\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\sreer\.gradle\caches\transforms-3\76628ea829c5a6f516c18423f169221e\transformed\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\sreer\.gradle\caches\transforms-3\4a2ba29cee3f96f1444ca06431d1a7cb\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\sreer\.gradle\caches\transforms-3\4a2ba29cee3f96f1444ca06431d1a7cb\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\sreer\.gradle\caches\transforms-3\38228ab0aa7e117550020d0e764c5364\transformed\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\sreer\.gradle\caches\transforms-3\38228ab0aa7e117550020d0e764c5364\transformed\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\sreer\.gradle\caches\transforms-3\06fb337f6d3182f006d03f388eb67cf7\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\sreer\.gradle\caches\transforms-3\06fb337f6d3182f006d03f388eb67cf7\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\sreer\.gradle\caches\transforms-3\4f6b15aee8c117ce0e173652737d42b2\transformed\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\sreer\.gradle\caches\transforms-3\4f6b15aee8c117ce0e173652737d42b2\transformed\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\sreer\.gradle\caches\transforms-3\6ce79b182026f66ec819dd238c14f123\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\sreer\.gradle\caches\transforms-3\6ce79b182026f66ec819dd238c14f123\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\sreer\.gradle\caches\transforms-3\acebf67183aa4a1009334010be8c1b25\transformed\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\sreer\.gradle\caches\transforms-3\acebf67183aa4a1009334010be8c1b25\transformed\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\sreer\.gradle\caches\transforms-3\f08fb4991e6d561449aa0c17c2a6f0f4\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\sreer\.gradle\caches\transforms-3\f08fb4991e6d561449aa0c17c2a6f0f4\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+INJECTED from D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\debug\AndroidManifest.xml
+INJECTED from D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\debug\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\debug\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\debug\AndroidManifest.xml
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from [:reactive_ble_mobile] D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\build\reactive_ble_mobile\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-15:38
+MERGED from [com.polidea.rxandroidble2:rxandroidble:1.16.0] C:\Users\sreer\.gradle\caches\transforms-3\d45f4fab39c61697e297e5d5905e9b97\transformed\jetified-rxandroidble-1.16.0\AndroidManifest.xml:13:5-15:38
+MERGED from [com.polidea.rxandroidble2:rxandroidble:1.16.0] C:\Users\sreer\.gradle\caches\transforms-3\d45f4fab39c61697e297e5d5905e9b97\transformed\jetified-rxandroidble-1.16.0\AndroidManifest.xml:13:5-15:38
+	android:maxSdkVersion
+		ADDED from [:reactive_ble_mobile] D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\build\reactive_ble_mobile\intermediates\library_manifest\debug\AndroidManifest.xml:15:9-35
+	android:name
+		ADDED from [:reactive_ble_mobile] D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\build\reactive_ble_mobile\intermediates\library_manifest\debug\AndroidManifest.xml:14:9-58
+activity#io.flutter.plugins.urllauncher.WebViewActivity
+ADDED from [:url_launcher_android] D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-11:74
+	android:exported
+		ADDED from [:url_launcher_android] D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-37
+	android:theme
+		ADDED from [:url_launcher_android] D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-71
+	android:name
+		ADDED from [:url_launcher_android] D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-74
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\sreer\.gradle\caches\transforms-3\49bcc28af8d7e79ebc8e5b31bd5a5e7e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\sreer\.gradle\caches\transforms-3\49bcc28af8d7e79ebc8e5b31bd5a5e7e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\sreer\.gradle\caches\transforms-3\49bcc28af8d7e79ebc8e5b31bd5a5e7e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\sreer\.gradle\caches\transforms-3\49bcc28af8d7e79ebc8e5b31bd5a5e7e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\sreer\.gradle\caches\transforms-3\49bcc28af8d7e79ebc8e5b31bd5a5e7e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\sreer\.gradle\caches\transforms-3\49bcc28af8d7e79ebc8e5b31bd5a5e7e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+uses-permission-sdk-23#android.permission.ACCESS_COARSE_LOCATION
+ADDED from [com.polidea.rxandroidble2:rxandroidble:1.16.0] C:\Users\sreer\.gradle\caches\transforms-3\d45f4fab39c61697e297e5d5905e9b97\transformed\jetified-rxandroidble-1.16.0\AndroidManifest.xml:18:5-88
+	android:name
+		ADDED from [com.polidea.rxandroidble2:rxandroidble:1.16.0] C:\Users\sreer\.gradle\caches\transforms-3\d45f4fab39c61697e297e5d5905e9b97\transformed\jetified-rxandroidble-1.16.0\AndroidManifest.xml:18:29-85
+uses-permission-sdk-23#android.permission.ACCESS_FINE_LOCATION
+ADDED from [com.polidea.rxandroidble2:rxandroidble:1.16.0] C:\Users\sreer\.gradle\caches\transforms-3\d45f4fab39c61697e297e5d5905e9b97\transformed\jetified-rxandroidble-1.16.0\AndroidManifest.xml:19:5-86
+	android:name
+		ADDED from [com.polidea.rxandroidble2:rxandroidble:1.16.0] C:\Users\sreer\.gradle\caches\transforms-3\d45f4fab39c61697e297e5d5905e9b97\transformed\jetified-rxandroidble-1.16.0\AndroidManifest.xml:19:29-83
+uses-permission#android.permission.BLUETOOTH_CONNECT
+ADDED from [com.polidea.rxandroidble2:rxandroidble:1.16.0] C:\Users\sreer\.gradle\caches\transforms-3\d45f4fab39c61697e297e5d5905e9b97\transformed\jetified-rxandroidble-1.16.0\AndroidManifest.xml:21:5-76
+	android:name
+		ADDED from [com.polidea.rxandroidble2:rxandroidble:1.16.0] C:\Users\sreer\.gradle\caches\transforms-3\d45f4fab39c61697e297e5d5905e9b97\transformed\jetified-rxandroidble-1.16.0\AndroidManifest.xml:21:22-73
+uses-permission#android.permission.BLUETOOTH_SCAN
+ADDED from [com.polidea.rxandroidble2:rxandroidble:1.16.0] C:\Users\sreer\.gradle\caches\transforms-3\d45f4fab39c61697e297e5d5905e9b97\transformed\jetified-rxandroidble-1.16.0\AndroidManifest.xml:22:5-25:31
+	android:usesPermissionFlags
+		ADDED from [com.polidea.rxandroidble2:rxandroidble:1.16.0] C:\Users\sreer\.gradle\caches\transforms-3\d45f4fab39c61697e297e5d5905e9b97\transformed\jetified-rxandroidble-1.16.0\AndroidManifest.xml:24:9-55
+	tools:targetApi
+		ADDED from [com.polidea.rxandroidble2:rxandroidble:1.16.0] C:\Users\sreer\.gradle\caches\transforms-3\d45f4fab39c61697e297e5d5905e9b97\transformed\jetified-rxandroidble-1.16.0\AndroidManifest.xml:25:9-28
+	android:name
+		ADDED from [com.polidea.rxandroidble2:rxandroidble:1.16.0] C:\Users\sreer\.gradle\caches\transforms-3\d45f4fab39c61697e297e5d5905e9b97\transformed\jetified-rxandroidble-1.16.0\AndroidManifest.xml:23:9-57

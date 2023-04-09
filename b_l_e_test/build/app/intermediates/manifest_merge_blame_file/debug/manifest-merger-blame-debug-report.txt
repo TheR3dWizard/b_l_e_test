@@ -1,0 +1,181 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.theredwizard.bletest"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="33" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\main\AndroidManifest.xml:4:5-66
+14-->D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\main\AndroidManifest.xml:4:22-64
+15    <uses-permission
+15-->D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\main\AndroidManifest.xml:6:5-68
+16        android:name="android.permission.BLUETOOTH"
+16-->D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\main\AndroidManifest.xml:6:22-65
+17        android:maxSdkVersion="30" />
+17-->[:reactive_ble_mobile] D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\build\reactive_ble_mobile\intermediates\library_manifest\debug\AndroidManifest.xml:12:9-35
+18    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+18-->D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\main\AndroidManifest.xml:7:5-78
+18-->D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\main\AndroidManifest.xml:7:22-76
+19    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+19-->D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\main\AndroidManifest.xml:8:5-80
+19-->D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\main\AndroidManifest.xml:8:22-78
+20    <uses-permission
+20-->[:reactive_ble_mobile] D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\build\reactive_ble_mobile\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-15:38
+21        android:name="android.permission.BLUETOOTH_ADMIN"
+21-->[:reactive_ble_mobile] D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\build\reactive_ble_mobile\intermediates\library_manifest\debug\AndroidManifest.xml:14:9-58
+22        android:maxSdkVersion="30" /> <!-- required for API 23 - 30, no android:maxSdkVersion because of a potential breaking change -->
+22-->[:reactive_ble_mobile] D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\build\reactive_ble_mobile\intermediates\library_manifest\debug\AndroidManifest.xml:15:9-35
+23    <!-- TODO: add android:maxSdkVersion on 2.0.0 -->
+24    <uses-permission-sdk-23 android:name="android.permission.ACCESS_COARSE_LOCATION" />
+24-->[com.polidea.rxandroidble2:rxandroidble:1.16.0] C:\Users\sreer\.gradle\caches\transforms-3\d45f4fab39c61697e297e5d5905e9b97\transformed\jetified-rxandroidble-1.16.0\AndroidManifest.xml:18:5-88
+24-->[com.polidea.rxandroidble2:rxandroidble:1.16.0] C:\Users\sreer\.gradle\caches\transforms-3\d45f4fab39c61697e297e5d5905e9b97\transformed\jetified-rxandroidble-1.16.0\AndroidManifest.xml:18:29-85
+25    <uses-permission-sdk-23 android:name="android.permission.ACCESS_FINE_LOCATION" /> <!-- API 31+ -->
+25-->[com.polidea.rxandroidble2:rxandroidble:1.16.0] C:\Users\sreer\.gradle\caches\transforms-3\d45f4fab39c61697e297e5d5905e9b97\transformed\jetified-rxandroidble-1.16.0\AndroidManifest.xml:19:5-86
+25-->[com.polidea.rxandroidble2:rxandroidble:1.16.0] C:\Users\sreer\.gradle\caches\transforms-3\d45f4fab39c61697e297e5d5905e9b97\transformed\jetified-rxandroidble-1.16.0\AndroidManifest.xml:19:29-83
+26    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+26-->[com.polidea.rxandroidble2:rxandroidble:1.16.0] C:\Users\sreer\.gradle\caches\transforms-3\d45f4fab39c61697e297e5d5905e9b97\transformed\jetified-rxandroidble-1.16.0\AndroidManifest.xml:21:5-76
+26-->[com.polidea.rxandroidble2:rxandroidble:1.16.0] C:\Users\sreer\.gradle\caches\transforms-3\d45f4fab39c61697e297e5d5905e9b97\transformed\jetified-rxandroidble-1.16.0\AndroidManifest.xml:21:22-73
+27    <uses-permission
+27-->[com.polidea.rxandroidble2:rxandroidble:1.16.0] C:\Users\sreer\.gradle\caches\transforms-3\d45f4fab39c61697e297e5d5905e9b97\transformed\jetified-rxandroidble-1.16.0\AndroidManifest.xml:22:5-25:31
+28        android:name="android.permission.BLUETOOTH_SCAN"
+28-->[com.polidea.rxandroidble2:rxandroidble:1.16.0] C:\Users\sreer\.gradle\caches\transforms-3\d45f4fab39c61697e297e5d5905e9b97\transformed\jetified-rxandroidble-1.16.0\AndroidManifest.xml:23:9-57
+29        android:usesPermissionFlags="neverForLocation" />
+29-->[com.polidea.rxandroidble2:rxandroidble:1.16.0] C:\Users\sreer\.gradle\caches\transforms-3\d45f4fab39c61697e297e5d5905e9b97\transformed\jetified-rxandroidble-1.16.0\AndroidManifest.xml:24:9-55
+30
+31    <application
+31-->D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\main\AndroidManifest.xml:9:5-63:19
+32        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+32-->[androidx.core:core:1.6.0] C:\Users\sreer\.gradle\caches\transforms-3\3e69e75513e04a117e18d9909e62f677\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
+33        android:debuggable="true"
+34        android:icon="@mipmap/ic_launcher"
+34-->D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\main\AndroidManifest.xml:12:9-43
+35        android:label="BLE Test"
+35-->D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\main\AndroidManifest.xml:10:9-33
+36        android:requestLegacyExternalStorage="true" >
+36-->D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\main\AndroidManifest.xml:13:9-52
+37        <activity
+37-->D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\main\AndroidManifest.xml:15:9-53:20
+38            android:name="com.theredwizard.bletest.MainActivity"
+38-->D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\main\AndroidManifest.xml:16:13-41
+39            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+39-->D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\main\AndroidManifest.xml:20:13-163
+40            android:exported="true"
+40-->D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\main\AndroidManifest.xml:17:13-36
+41            android:hardwareAccelerated="true"
+41-->D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\main\AndroidManifest.xml:21:13-47
+42            android:launchMode="singleTop"
+42-->D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\main\AndroidManifest.xml:18:13-43
+43            android:theme="@style/LaunchTheme"
+43-->D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\main\AndroidManifest.xml:19:13-47
+44            android:windowSoftInputMode="adjustResize" >
+44-->D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\main\AndroidManifest.xml:22:13-55
+45
+46            <!--
+47                 Specifies an Android theme to apply to this Activity as soon as
+48                 the Android process has started. This theme is visible to the user
+49                 while the Flutter UI initializes. After that, this theme continues
+50                 to determine the Window background behind the Flutter UI.
+51            -->
+52            <meta-data
+52-->D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\main\AndroidManifest.xml:27:13-30:17
+53                android:name="io.flutter.embedding.android.NormalTheme"
+53-->D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\main\AndroidManifest.xml:28:15-70
+54                android:resource="@style/NormalTheme" />
+54-->D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\main\AndroidManifest.xml:29:15-52
+55            <!--
+56                 Displays an Android View that continues showing the launch screen
+57                 Drawable until Flutter paints its first frame, then this splash
+58                 screen fades out. A splash screen is useful to avoid any visual
+59                 gap between the end of Android's launch screen and the painting of
+60                 Flutter's first frame.
+61            -->
+62            <meta-data
+62-->D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\main\AndroidManifest.xml:36:13-39:17
+63                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+63-->D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\main\AndroidManifest.xml:37:15-79
+64                android:resource="@drawable/launch_background" />
+64-->D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\main\AndroidManifest.xml:38:15-61
+65
+66            <intent-filter>
+66-->D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\main\AndroidManifest.xml:40:13-43:29
+67                <action android:name="android.intent.action.MAIN" />
+67-->D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\main\AndroidManifest.xml:41:17-68
+67-->D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\main\AndroidManifest.xml:41:25-66
+68
+69                <category android:name="android.intent.category.LAUNCHER" />
+69-->D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\main\AndroidManifest.xml:42:17-76
+69-->D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\main\AndroidManifest.xml:42:27-74
+70            </intent-filter>
+71            <!-- Deep linking -->
+72            <meta-data
+72-->D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\main\AndroidManifest.xml:45:13-90
+73                android:name="flutter_deeplinking_enabled"
+73-->D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\main\AndroidManifest.xml:45:24-66
+74                android:value="true" />
+74-->D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\main\AndroidManifest.xml:45:67-87
+75
+76            <intent-filter android:autoVerify="true" >
+76-->D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\main\AndroidManifest.xml:46:13-51:29
+76-->D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\main\AndroidManifest.xml:46:28-53
+77                <action android:name="android.intent.action.VIEW" />
+77-->D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\main\AndroidManifest.xml:47:17-69
+77-->D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\main\AndroidManifest.xml:47:25-66
+78
+79                <category android:name="android.intent.category.DEFAULT" />
+79-->D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\main\AndroidManifest.xml:48:17-76
+79-->D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\main\AndroidManifest.xml:48:27-73
+80                <category android:name="android.intent.category.BROWSABLE" />
+80-->D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\main\AndroidManifest.xml:49:17-78
+80-->D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\main\AndroidManifest.xml:49:27-75
+81
+82                <data
+82-->D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\main\AndroidManifest.xml:50:17-77
+83                    android:host="bletest.com"
+83-->D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\main\AndroidManifest.xml:50:48-74
+84                    android:scheme="bletest" />
+84-->D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\main\AndroidManifest.xml:50:23-47
+85            </intent-filter>
+86        </activity>
+87
+88        <!--
+89             Don't delete the meta-data below.
+90             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+91        -->
+92        <meta-data
+92-->D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\main\AndroidManifest.xml:57:9-59:33
+93            android:name="flutterEmbedding"
+93-->D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\main\AndroidManifest.xml:58:13-44
+94            android:value="2" />
+94-->D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\android\app\src\main\AndroidManifest.xml:59:13-30
+95
+96        <activity
+96-->[:url_launcher_android] D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-11:74
+97            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+97-->[:url_launcher_android] D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-74
+98            android:exported="false"
+98-->[:url_launcher_android] D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-37
+99            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+99-->[:url_launcher_android] D:\Projects\PSG Scapes\Extracts\b_l_e_test\b_l_e_test\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-71
+100
+101        <uses-library
+101-->[androidx.window:window:1.0.0-beta04] C:\Users\sreer\.gradle\caches\transforms-3\49bcc28af8d7e79ebc8e5b31bd5a5e7e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+102            android:name="androidx.window.extensions"
+102-->[androidx.window:window:1.0.0-beta04] C:\Users\sreer\.gradle\caches\transforms-3\49bcc28af8d7e79ebc8e5b31bd5a5e7e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+103            android:required="false" />
+103-->[androidx.window:window:1.0.0-beta04] C:\Users\sreer\.gradle\caches\transforms-3\49bcc28af8d7e79ebc8e5b31bd5a5e7e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+104        <uses-library
+104-->[androidx.window:window:1.0.0-beta04] C:\Users\sreer\.gradle\caches\transforms-3\49bcc28af8d7e79ebc8e5b31bd5a5e7e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+105            android:name="androidx.window.sidecar"
+105-->[androidx.window:window:1.0.0-beta04] C:\Users\sreer\.gradle\caches\transforms-3\49bcc28af8d7e79ebc8e5b31bd5a5e7e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+106            android:required="false" />
+106-->[androidx.window:window:1.0.0-beta04] C:\Users\sreer\.gradle\caches\transforms-3\49bcc28af8d7e79ebc8e5b31bd5a5e7e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+107    </application>
+108
+109</manifest>

@@ -1,0 +1,4 @@
+io/flutter/plugins/GeneratedPluginRegistrant.java
+ io.flutter.plugins.GeneratedPluginRegistrant
+com/theredwizard/bletest/BuildConfig.java
+ com.theredwizard.bletest.BuildConfig
