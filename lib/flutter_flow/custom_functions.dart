@@ -7,6 +7,7 @@ import 'package:intl/intl.dart';
 import 'package:timeago/timeago.dart' as timeago;
 import 'lat_lng.dart';
 import 'place.dart';
+import 'package:permission_handler/permission_handler.dart';
 
 import 'dart:async';
 
@@ -16,7 +17,7 @@ Future<List>? uUIDScan() async {
 
   final subscription = flutterReactiveBle.scanForDevices(
     withServices: [],
-    scanMode: ScanMode.lowPower,
+    scanMode: ScanMode.lowLatency,
     requireLocationServicesEnabled: false,
   ).listen((scanResult) {
     devicesList.add(scanResult.id.toString());
@@ -34,9 +35,13 @@ Future<List>? uUIDScan() async {
 }
 
 Future<String>? aTTendance() async {
+  String perms = await pErmissions()!;
   List? uuid = await uUIDScan();
   List? uuidlist = uUIDList();
 
+  if (perms == 'False') {
+    return 'Permissions not granted';
+  }
   for (int i = 0; i < uuid!.length; i++) {
     if (uuidlist!.contains(uuid[i])) {
       return 'Present ${uuid[i]}';
@@ -49,4 +54,18 @@ List? uUIDList() {
   //will be replaced by an API call
   List l = ['03:01:51:C9:65:72'];
   return l;
+}
+
+Future<String>? pErmissions() async {
+  //check permissions for bluetooth and location
+  var statusBLS = await Permission.bluetoothScan.request();
+  var statusLoc = await Permission.location.request();
+  var statusBLC = await Permission.bluetoothConnect.request();
+  if (statusLoc == PermissionStatus.granted &&
+      statusBLS == PermissionStatus.granted &&
+      statusBLC == PermissionStatus.granted) {
+    return 'True';
+  } else {
+    return 'False';
+  }
 }
