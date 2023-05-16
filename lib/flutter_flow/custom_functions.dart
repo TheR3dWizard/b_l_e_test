@@ -20,8 +20,21 @@ Future<List>? uUIDScan() async {
     scanMode: ScanMode.lowLatency,
     requireLocationServicesEnabled: false,
   ).listen((scanResult) {
+<<<<<<< HEAD
     devicesList.add(scanResult.id.toString());
     print(scanResult.id.toString() + "," + scanResult.rssi.toString());
+=======
+    List l = [];
+    l.add(scanResult.id.toString());
+    for (int i = 0; i < scanResult.serviceUuids.length; i++) {
+      l.add(scanResult.serviceUuids[i].toString());
+      print(
+          "Device: ${scanResult.id} \n Name: ${scanResult.serviceData} \n rssi: ${scanResult.rssi} \n ServiceUUIDs : ${scanResult.serviceUuids}");
+      String s = "";
+      s = s + l[0] + l[1] + "\n";
+      devicesList.add(s);
+    }
+>>>>>>> f10784666347409b5330bb55c5e707d580161d09
   });
 
   // Wait for 4 seconds
@@ -39,6 +52,7 @@ Future<String>? aTTendance() async {
   String perms = await pErmissions()!;
   List? uuid = await uUIDScan();
   List? uuidlist = uUIDList();
+  print(uuid);
 
   if (perms == 'False') {
     return 'Permissions not granted';
@@ -53,7 +67,11 @@ Future<String>? aTTendance() async {
 
 List? uUIDList() {
   //will be replaced by an API call
+<<<<<<< HEAD
   List l = ['68:8D:FC:A9:CD:92', '52:52:99:19:D6:28'];
+=======
+  List l = ['B1B41609-8827-4CDD-AC4A-61096011545A'];
+>>>>>>> f10784666347409b5330bb55c5e707d580161d09
   return l;
 }
 
